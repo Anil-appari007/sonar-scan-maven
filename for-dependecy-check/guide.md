@@ -1,9 +1,8 @@
 ##  To run dependency check in your code
 ##  Add the below code in pom.xml
-#<project>
+<project>
     <build>
         <plugins>
-            ...
             <plugin>
               <groupId>org.owasp</groupId>
               <artifactId>dependency-check-maven</artifactId>
@@ -15,12 +14,9 @@
                   </execution>
               </executions>
             </plugin>
-            ...
         </plugins>
-        ...
     </build>
-    ...
-#</project>
+</project>
 
 ##############
 
