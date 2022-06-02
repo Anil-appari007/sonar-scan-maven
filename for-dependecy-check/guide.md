@@ -1,6 +1,6 @@
 ##  To run dependency check in your code
 ##  Add the below code in pom.xml
-<project>
+#<project>
     <build>
         <plugins>
             ...
@@ -20,7 +20,7 @@
         ...
     </build>
     ...
-</project>
+#</project>
 
 ##############
 
